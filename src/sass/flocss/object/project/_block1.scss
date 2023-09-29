@@ -1,11 +1,12 @@
-@use "../config/variables" as var;
-@use "../config/mixins" as mix;
+@use "../../foundation/variables" as var;
+@use "../../foundation/mixins" as mix;
 
-.block1 {
+.p-block1 {
     width: 80%;
-    position: absolute;
-    inset: 50% 0 0 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    // position: absolute;
+    // inset: 50% 0 0 50%;
+    // transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +16,7 @@
     }
 
     &__content {
-        width: 300px;
+        width: 200px;
 
         &__img {
             width: 100%;
@@ -24,7 +25,7 @@
         &__bg {
             width: 100%;
             height: 200px;
-            background-image: url('./img/sample.jpg');
+            background-image: url('./img/sample-jpeg.jpeg');
             background-size: cover;
         }
     }
