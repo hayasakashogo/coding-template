@@ -1,7 +1,7 @@
-@use "../config/variables" as var;
-@use "../config/mixins" as mix;
+@use "../foundation/variables" as var;
+@use "../foundation/mixins" as mix;
 
-.header {
+.l-header {
     margin: 0;
     width: 100%;
     background-color: var.$mainColor;
@@ -21,7 +21,7 @@
         }
 
         &__item {
-            &__link{
+            &__link {
                 color: #fff;
                 font-size: 16px;
                 font-weight: bold;

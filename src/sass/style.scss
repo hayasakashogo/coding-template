@@ -1,6 +1,8 @@
-@use "./bem/base/reset";
-@use "bem/base/base";
-@use "bem/block/header";
-@use "bem/block/block1";
-@use "bem/parts/heading";
-@use "bem/utility/margin";
+@use "./flocss/foundation/reset";
+@use "./flocss/foundation/base";
+@use "./flocss/layout/header";
+@use "./flocss/layout/main";
+@use "./flocss/object/project/block1";
+@use "./flocss/object/project/block2";
+@use "./flocss/object/component/heading";
+@use "./flocss/object/utility/margin";
